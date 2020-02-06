@@ -15,6 +15,7 @@ The final application is the collaborated work of the following people:
 * [] - ()
 * [] - ()
 * [Vik](https://github.com/kviktorman)
+* [Thomas Løkkeborg](https://github.com/tholok97)
 
 # Container approach
 
