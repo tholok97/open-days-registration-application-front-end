@@ -1,0 +1,86 @@
+// Copyright (C) 2019, CERN
+// This software is distributed under the terms of the GNU General Public
+// Licence version 3 (GPL Version 3), copied verbatim in the file "LICENSE".
+// In applying this license, CERN does not waive the privileges and immunities
+// granted to it by virtue of its status as Intergovernmental Organization
+// or submit itself to any jurisdiction.
+
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~@angular/material/theming';
+
+* {
+   box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body {
+   background: url(http://localhost/opendays_background.png) no-repeat center top/cover;
+   background-color: #ffffff;
+   margin:0;
+   font-family: 'Source Sans Pro', sans-serif;
+
+    .root-page__banner {
+      height: 80px;
+      background: #060a33;
+      margin: 0;
+      overflow:hidden;
+      display:flex;
+      align-items:center;
+
+      &__content-left { 
+         float: left;
+
+         &__logo-img {
+            margin: 0;
+            padding:0;
+            height:80px;
+            width: 182.5px;
+            float: left;
+         }
+      }
+
+      &__content-right { 
+         margin-left: auto;
+         float: right;
+
+         &__opendays-img {
+            margin: 0;
+            padding:0;
+            height:26.25px;
+            width: 182.5px;
+            float: right;
+         }
+      }
+   }
+   
+   .root-page__content-main {
+      text-align:center;
+
+      &__language-selectors {
+         margin: 0;
+         padding: 0;
+         display:inline-block;
+         list-style: none;
+
+         &__item {
+            display:inline-block;
+            vertical-align:top; 
+            border-radius: 40px;
+            margin: 20px 10px;
+            text-decoration: none;	
+            font-weight: bold;
+          
+            &__language-button {
+               color:#060a33;
+               width: 300px;
+               height: 180px;
+               border: 1px solid gray;
+               border-radius: 40px;
+               font-size: 200%;
+            }
+         }
+      }
+   }
+}
+
